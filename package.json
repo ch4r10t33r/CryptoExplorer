@@ -1,0 +1,37 @@
+{
+  "name": "bxplorer",
+  "version": "0.0.1",
+  "description": "Common blockchain explorer for most crypto currencies (BTC, ETH and any ERC20 complaint ones)",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zincoshine/bxplorer.git"
+  },
+  "keywords": [
+    "bxplorer",
+    "BTC",
+    "ETC",
+    "explorer",
+    "BTC",
+    "explorer",
+    "ERC20",
+    "explorer"
+  ],
+  "author": "Parthasarathy Ramanujam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zincoshine/bxplorer/issues"
+  },
+  "homepage": "https://github.com/zincoshine/bxplorer#readme",
+  "dependencies": {
+    "blockchain.info": "^2.8.0",
+    "etherscan-api": "^3.0.3",
+    "fetch": "^1.1.0",
+    "mongoose": "^4.10.6",
+    "node-fetch": "^1.7.1",
+    "ripple-lib": "^0.17.7"
+  }
+}
